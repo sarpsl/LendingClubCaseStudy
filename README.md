@@ -15,12 +15,22 @@ The company wants to understand the driving factors (or driver variables) behind
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+This project aims to analyze a dataset containing loan-related information to identify key factors that contribute to loan defaults. By conducting Exploratory Data Analysis (EDA) on the dataset, to uncover patterns and insights that can help the company make informed decisions regarding risk assessment and portfolio management.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+### Background
+In the financial industry, managing loan default risk is of utmost importance for ensuring the stability of lending portfolios and minimizing potential credit losses. To achieve this, it is crucial for financial institutions to identify the driving factors behind loan defaults. Exploring historical loan data through EDA can provide valuable insights into the characteristics and behaviors of defaulting borrowers.
+
+### Business Problem
+The primary business problem addressed by this project is to understand the factors that contribute to loan defaults. By identifying the variables that serve as strong indicators of loan default, financial institutions can make more accurate risk assessments and reduce the number of high-risk loans in their portfolio. This knowledge can ultimately lead to a reduction in credit losses and enhanced portfolio management.
+
+### Dataset
+The dataset used for this project contains a wide range of loan-related information, including borrower characteristics, loan terms, credit scores, and more. The dataset enables us to examine how various attributes relate to the likelihood of a loan being classified as "Charged Off" or defaulted. The dataset allows us to explore both numerical and categorical variables, providing a comprehensive view of borrower behavior and loan performance.
+
+The columns in the dataset include:
+
+id, member_id, loan_amnt, funded_amnt, funded_amnt_inv, and more (a total of numerous columns).
+Notably, the loan_status column categorizes loans as "Charged Off" or in various other states.
+By analyzing this dataset, we aim to gain insights into the key drivers of loan defaults, ultimately assisting financial institutions in making well-informed decisions to mitigate risk and optimize their lending strategies.
 
 ## Conclusions
 - Conclusion 1 from the analysis
@@ -32,11 +42,12 @@ The company wants to understand the driving factors (or driver variables) behind
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- Python - 3.9.17
+- jupyterlab - 3.6.3
+- numpy - 1.24.3
+- pandas - 2.0.3
+- matplotlib - 3.7.1
+- seaborn - 0.12.2
 
 ## Acknowledgements
 Give credit here.
@@ -46,7 +57,7 @@ Give credit here.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by Syed Abdul Rahim [@sarpsl] - feel free to contact me!
 
 
 <!-- Optional -->
