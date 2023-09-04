@@ -50,11 +50,8 @@ By analyzing this dataset, we aim to gain insights into the key drivers of loan 
 - seaborn - 0.12.2
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- Dataset from upGrad for Lending Club Case Study
+- Based on this tutorial https://www.kaggle.com/code/ab9bhatia/complete-eda-for-loan-analysis
 
 ## Contact
 Created by Syed Abdul Rahim [@sarpsl] - feel free to contact me!
