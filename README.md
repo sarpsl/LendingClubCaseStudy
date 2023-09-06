@@ -5,14 +5,12 @@ Like most other lending companies, lending loans to ‘risky’ applicants is th
 
 The company wants to understand the driving factors (or driver variables) behind loan default using EDA (Exploratory Data Analysis), i.e. the variables which are strong indicators of default.  The company can utilise this knowledge for its portfolio and risk assessment. 
 
-
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
+* [Contacts](#contacts)
 
 ## General Information
 This project aims to analyze a dataset containing loan-related information to identify key factors that contribute to loan defaults. By conducting Exploratory Data Analysis (EDA) on the dataset, to uncover patterns and insights that can help the company make informed decisions regarding risk assessment and portfolio management.
@@ -32,15 +30,6 @@ id, member_id, loan_amnt, funded_amnt, funded_amnt_inv, and more (a total of num
 Notably, the loan_status column categorizes loans as "Charged Off" or in various other states.
 By analyzing this dataset, we aim to gain insights into the key drivers of loan defaults, ultimately assisting financial institutions in making well-informed decisions to mitigate risk and optimize their lending strategies.
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
 ## Technologies Used
 - Python - 3.9.17
 - jupyterlab - 3.6.3
@@ -49,16 +38,16 @@ By analyzing this dataset, we aim to gain insights into the key drivers of loan 
 - matplotlib - 3.7.1
 - seaborn - 0.12.2
 
+## Conclusions
+1. Loans above 25000 and interest rate more than 15% have higher chance for Charged Off
+2. Loans above 30000 and installment above 800 have higher chance for Charged Off
+3. Loans applied for 'house' with Interest rate above 15% have higher chance for Charged Off
+4. Loans under grade 'G' with Interest rate above 20% have higher chance for Charged Off
+5. Applicants on 'Mortgage' home and loan above 13000 have higher chance for Charged Off
+
 ## Acknowledgements
 - Dataset from upGrad for Lending Club Case Study
 - Based on this tutorial https://www.kaggle.com/code/ab9bhatia/complete-eda-for-loan-analysis
 
-## Contact
-Created by Syed Abdul Rahim [@sarpsl] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+## Contacts
+Created by Syed Abdul Rahim [@sarpsl] & Leena - feel free to contact us!
