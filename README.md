@@ -39,15 +39,20 @@ By analyzing this dataset, we aim to gain insights into the key drivers of loan 
 - seaborn - 0.12.2
 
 ## Conclusions
+- Rejectable Loans:
 1. Loans above 25000 and interest rate more than 15% have higher chance for Charged Off
 2. Loans above 30000 and installment above 800 have higher chance for Charged Off
 3. Loans applied for 'house' with Interest rate above 15% have higher chance for Charged Off
 4. Loans under grade 'G' with Interest rate above 20% have higher chance for Charged Off
 5. Applicants on 'Mortgage' home and loan above 13000 have higher chance for Charged Off
+- Approvable loans:
+6. Loans below 25000, interest rate below 15% and not for 'house'
+7. Loans below grade 'G' and interest rate below 20%
+8. Loans below 13000 and not under 'Mortgage'
 
 ## Acknowledgements
 - Dataset from upGrad for Lending Club Case Study
 - Based on this tutorial https://www.kaggle.com/code/ab9bhatia/complete-eda-for-loan-analysis
 
 ## Contacts
-Created by Syed Abdul Rahim [@sarpsl] & Leena - feel free to contact us!
+Created by Syed Abdul Rahim [@sarpsl] & Leena Orpe [@leenaorpe] - feel free to contact us!
